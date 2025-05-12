@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Safety</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Water Safety App</h1>
+    </header>
+    <main>
+        <section id="water-safety-info">
+            <h2>Water Safety Information</h2>
+            <p>Learn about the importance of water safety and how to stay safe around water.</p>
+        </section>
+
+
+        <section>
+            <h2>Water Safety Near You</h2>
+
+            <label for="markerColor">Choose Marker Highlight Color:</label>
+            <input type="color" id="markerColor" />
+
+            <button id="saveColor">Save Preference</button>
+
+            <div class="water-marker safe" id="marker1">💧 Safe</div>
+            <div class="water-marker unsafe" id="marker2">⚠️ Unsafe</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Water Safety App</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

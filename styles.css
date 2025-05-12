@@ -1,0 +1,26 @@
+.water-marker {
+  display: inline-block;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.safe {
+  background-color: #c8f7c5;
+}
+
+.unsafe {
+  background-color: #f7c5c5;
+}
+
+.water-marker.animate {
+  animation: pulse 0.6s ease;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
